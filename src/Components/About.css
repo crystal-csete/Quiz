@@ -1,0 +1,94 @@
+.about__container {
+  display: flex;
+  flex-direction: column;
+  background-image: url("../assets/blue_glass_bg.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  border: 2px solid black;
+}
+
+.about__title__container {
+  background-color: rgba(31, 43, 49, 0.3);
+  padding: 2rem;
+  margin: 2rem;
+}
+
+.about__title__container h1 {
+  text-align: center;
+  margin: 2rem;
+  padding: 2rem;
+  font-size: 2rem;
+  background-color: rgba(86, 122, 151, 0.8);
+  border-radius: 10px;
+  border: none;
+  color: #fff;
+}
+
+.about__text__container {
+  display: flex;
+  flex-direction: column;
+}
+
+.about__text {
+  margin: 5rem;
+  padding: 1rem;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 2;
+  letter-spacing: 2px;
+  text-align: start;
+  background-color: rgba(216, 228, 238, 0.8);
+  border-radius: 10px;
+}
+
+.one {
+  background-color: rgba(86, 122, 151, 0.8);
+}
+
+.two {
+  background-color: rgba(102, 130, 153, 0.8);
+}
+
+.three {
+  background-color: rgba(116, 135, 151, 0.8);
+}
+
+.four {
+  background-color: rgba(184, 197, 207, 0.8);
+}
+
+.five {
+  background-color: rgba(216, 228, 238, 0.8);
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  align-content: flex-start;
+  width: 50%;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  align-content: flex-start;
+  margin-left: 54rem;
+  width: 50%;
+}
+
+.footer__container h4 {
+  color: rgb(22, 18, 18);
+  background: rgba(206, 210, 212, 0.5);
+  height: 6vh;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
