@@ -5,15 +5,13 @@ import Products from "./Products";
 import Login from "./Login";
 import Home from "./Home";
 import QuizPage from "../QuizComponents/QuizPage";
-import Footer from "./Footer";
-import Logout from './Logout'
+import Logout from "./Logout";
 
 import { BrowserRouter as Router, Link, Switch, Route } from "react-router-dom";
 import { useSelector } from "react-redux";
 import { selectUser } from "../users/userSlice";
 
 function Nav() {
-
   const user = useSelector(selectUser);
   return (
     <Router>
@@ -50,7 +48,7 @@ function Nav() {
               <Products />
             </Route>
             <Route path="/login">
-              <Login/>
+              <Login />
               <div>{user ? <Logout /> : <Login />}</div>
             </Route>
             <Route path="/">
@@ -58,7 +56,6 @@ function Nav() {
             </Route>
           </Switch>
         </div>
-        <Footer />
       </div>
     </Router>
   );
