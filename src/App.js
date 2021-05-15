@@ -21,6 +21,9 @@ import {
   CoffeeOutlined,
   QuestionCircleOutlined,
   SmileOutlined,
+  HomeOutlined,
+  BarcodeOutlined,
+  LoginOutlined,
 } from "@ant-design/icons";
 import mug from "./assets/mug.jpg";
 
@@ -54,7 +57,9 @@ const App = () => {
                 >
                   <Menu.ItemGroup key="menu" title="Options">
                     <Menu.Item key="home">
-                      <Link to="/">Home</Link>
+                      <Link to="/">
+                        <HomeOutlined /> Home
+                      </Link>
                     </Menu.Item>
 
                     <Menu.Item key="aboutus">
@@ -64,11 +69,17 @@ const App = () => {
                     </Menu.Item>
 
                     <Menu.Item key="products">
-                      <Link to="/products">Merch</Link>
+                      <Link to="/products">
+                        <BarcodeOutlined />
+                        Merch
+                      </Link>
                     </Menu.Item>
 
                     <Menu.Item key="login">
-                      <Link to="/login">Login</Link>
+                      <Link to="/login">
+                        <LoginOutlined />
+                        Login
+                      </Link>
                     </Menu.Item>
 
                     <Menu.Item key="quiz">
@@ -103,13 +114,13 @@ const App = () => {
                   <Breadcrumb.Item>Welcome</Breadcrumb.Item>
                 </Breadcrumb>
                 <div className="app__card__container">
-                  <Card className="app__card image">
+                  {/* <Card className="app__card image">
                     <Avatar
                       shape="square"
                       size={200}
                       src={<Image preview={false} src={mug} />}
                     />
-                  </Card>
+                  </Card> */}
                   <Card className="app__card">
                     <Title level={3}>Welcome to *App Name Here*</Title>
                     <p>

@@ -1,82 +1,48 @@
 import React from "react";
+import { Card, Typography } from "antd";
+import {
+  SmileOutlined,
+  HeartOutlined,
+  CoffeeOutlined,
+} from "@ant-design/icons";
 import "./About.css";
 
 const About = () => {
+  const { Title } = Typography;
+
   return (
-    <div className="about__container">
-      <div className="about__title__container">
-        <h1>Ridiculously Long About Us Page! &#9786;</h1>
-      </div>
-      <div className="about__text__container"></div>
-      <div className="about__text left one">
+    <>
+      <Card className="about__card">
+        <Title level={2}>
+          All About Us <SmileOutlined />
+        </Title>
         <p>
-          What is Lorem Ipsum? Lorem Ipsum is simply dummy text of the printing
-          and typesetting industry. Lorem Ipsum has been the industry's standard
-          dummy text ever since the 1500s, when an unknown printer took a galley
-          of type and scrambled it to make a type specimen book. It has survived
-          not only five centuries, but also the leap into electronic
-          typesetting, remaining essentially unchanged. It was popularised in
-          the 1960s with the release of Letraset sheets containing Lorem Ipsum
-          passages, and more recently with desktop publishing software like
-          Aldus PageMaker including versions of Lorem Ipsum.
+          What is <CoffeeOutlined /> about? We want to give you a great
+          experience as a user. Right now, this site is not operational. We
+          wanted to give you a sneak peek of what is to come.
         </p>
-        </div>
-        <div className="about__text right two" >
+        <Title level={4}>Quiz Time</Title>
         <p>
-          Why do we use it? It is a long established fact that a reader will be
-          distracted by the readable content of a page when looking at its
-          layout. The point of using Lorem Ipsum is that it has a more-or-less
-          normal distribution of letters, as opposed to using 'Content here,
-          content here', making it look like readable English. Many desktop
-          publishing packages and web page editors now use Lorem Ipsum as their
-          default model text, and a search for 'lorem ipsum' will uncover many
-          web sites still in their infancy. Various versions have evolved over
-          the years, sometimes by accident, sometimes on purpose (injected
-          humour and the like).
+          Here we offer a free quiz. It is supposed to be fun... nothing to
+          serious. <HeartOutlined /> So go ahead, and take a short quiz, and see
+          if this is for you!
         </p>
-        </div>
-        <div className="about__text left three">
+        <Title level={4}>Merch</Title>
         <p>
-          Where does it come from? Contrary to popular belief, Lorem Ipsum is
-          not simply random text. It has roots in a piece of classical Latin
-          literature from 45 BC, making it over 2000 years old. Richard
-          McClintock, a Latin professor at Hampden-Sydney College in Virginia,
-          looked up one of the more obscure Latin words, consectetur, from a
-          Lorem Ipsum passage, and going through the cites of the word in
-          classical literature, discovered the undoubtable source. Lorem Ipsum
-          comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et
-          Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC.
-          This book is a treatise on the theory of ethics, very popular during
-          the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit
-          amet..", comes from a line in section 1.10.32.
+          Take a look at some cool merch we have here at <CoffeeOutlined />. It
+          is not functional yet, but you can get a preview of what we will be
+          selling. Great for when you want to hang out in a Colorado Mountain
+          trail, soaking up the sun rays, we have basic clothes to keep you
+          stylin in the mountains. Hint: Use sunscreen, the UV Index is crazy up
+          there!
         </p>
-        </div>
-        <div className="about__text right four">
+        <Title level={4}>Login</Title>
         <p>
-          The standard chunk of Lorem Ipsum used since the 1500s is reproduced
-          below for those interested. Sections 1.10.32 and 1.10.33 from "de
-          Finibus Bonorum et Malorum" by Cicero are also reproduced in their
-          exact original form, accompanied by English versions from the 1914
-          translation by H. Rackham.
+          Login, or look around as a guest. If you want to purchase an item from
+          our Merch store, you have to login.
         </p>
-        </div>
-        <div className="about__text left five">
-        <p>
-          Where can I get some? There are many variations of passages of Lorem
-          Ipsum available, but the majority have suffered alteration in some
-          form, by injected humour, or randomised words which don't look even
-          slightly believable. If you are going to use a passage of Lorem Ipsum,
-          you need to be sure there isn't anything embarrassing hidden in the
-          middle of text. All the Lorem Ipsum generators on the Internet tend to
-          repeat predefined chunks as necessary, making this the first true
-          generator on the Internet. It uses a dictionary of over 200 Latin
-          words, combined with a handful of model sentence structures, to
-          generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum
-          is therefore always free from repetition, injected humour, or
-          non-characteristic words etc.
-        </p>
-      </div>
-    </div>
+      </Card>
+    </>
   );
 };
 

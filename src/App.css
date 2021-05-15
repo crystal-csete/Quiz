@@ -24,12 +24,12 @@ html {
   text-align: left;
 }
 
-/* .app__content {
+.app__content {
   background-image: url("./assets/background.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-} */
+}
 
 .app__card__container {
   padding: 1rem;
@@ -101,7 +101,7 @@ div.ant-menu-submenu-title:hover {
   font-weight: 600;
 }
 
-.ant-menu-submenu-arrow::before,
+/* .ant-menu-submenu-arrow::before,
 .ant-menu-submenu-arrow::after {
   transform: rotate(45deg) translateX(2.5px);
   color: rgb(77, 55, 9);
@@ -129,7 +129,7 @@ li.ant-menu-item-selected {
   transition: transform 0.15s cubic-bezier(0.215, 0.61, 0.355, 1),
     opacity 0.15s cubic-bezier(0.215, 0.61, 0.355, 1);
   content: "";
-}
+} */
 
 .ant-menu-item-group-title {
   color: rgb(82, 75, 80);
@@ -152,7 +152,7 @@ h3.ant-typography {
   background-color: rgb(190, 171, 83);
 }
 
-.anticon-github svg {
+/* .anticon-github svg {
   display: inline-block;
   color: rgb(77, 55, 9);
   width: 50px;
@@ -174,7 +174,7 @@ h3.ant-typography {
   width: 50px;
   height: 50px;
   margin-right: 2rem;
-}
+} */
 
 /* antd Footer styles */
 
