@@ -2,11 +2,14 @@ import React from "react";
 import { useDispatch } from "react-redux";
 import { logout, selectUser } from "../users/userSlice";
 import { useSelector } from "react-redux";
+import { Card, Typography } from "antd";
 import "./Logout.css";
 
 const Logout = () => {
+  const { Title } = Typography;
   const user = useSelector(selectUser);
   const dispatch = useDispatch();
+
   const handleLogout = (e) => {
     e.preventDefault();
 
@@ -14,16 +17,14 @@ const Logout = () => {
   };
 
   return (
-    <div className="logout">
-      <div className="logout__container">
-      <h1 className="logout__container__title">
+    <Card className="logout__container">
+      <Title level={4}>
         Welcome <span className="user__name">{user.name}</span>
-      </h1>
-      <button className="logout__button" onClick={(e) => handleLogout(e)}>
+      </Title>
+      <button className="logout__btn" onClick={(e) => handleLogout(e)}>
         Logout
       </button>
-      </div>
-    </div>
+    </Card>
   );
 };
 

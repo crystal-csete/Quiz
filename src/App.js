@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
 import About from "./Components/About";
 import Products from "./Components/Products";
 import Login from "./Components/Login";
+import Logout from "./Components/Logout";
 import QuizPage from "./QuizComponents/QuizPage";
 
 import "./App.css";
@@ -24,8 +25,9 @@ import {
   HomeOutlined,
   BarcodeOutlined,
   LoginOutlined,
+  LogoutOutlined,
 } from "@ant-design/icons";
-import mug from "./assets/mug.jpg";
+// import mug from "./assets/mug.jpg";
 
 const App = () => {
   const { Title } = Typography;
@@ -82,6 +84,13 @@ const App = () => {
                       </Link>
                     </Menu.Item>
 
+                    <Menu.Item key="logout">
+                      <Link to="/logout">
+                        <LogoutOutlined />
+                        Logout
+                      </Link>
+                    </Menu.Item>
+
                     <Menu.Item key="quiz">
                       <Link to="/quiz">
                         <QuestionCircleOutlined />
@@ -102,6 +111,9 @@ const App = () => {
               </Route>
               <Route path="/login">
                 <Login />
+              </Route>
+              <Route path="/logout">
+                <Logout />
               </Route>
               <Route path="/quiz">
                 <QuizPage />
