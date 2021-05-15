@@ -10,9 +10,11 @@ import {
   Breadcrumb,
 } from "antd";
 import {
-  SettingOutlined,
   UserOutlined,
   HeartOutlined,
+  CoffeeOutlined,
+  QuestionCircleOutlined,
+  SmileOutlined,
 } from "@ant-design/icons";
 import mug from "../assets/mug.jpg";
 
@@ -25,7 +27,9 @@ const Home = () => {
     <div className="home__container">
       <Layout>
         <Header style={{ padding: 10 }}>
-          <Title style={{ color: "rgb(194, 57, 164" }} level={3}>
+          <Title style={{ color: "rgb(77, 55, 9)" }} level={3}>
+            <CoffeeOutlined />
+            Logo
             <Avatar style={{ float: "right" }} icon={<HeartOutlined />} />
           </Title>
         </Header>
@@ -37,13 +41,21 @@ const Home = () => {
                 title={
                   <span>
                     <UserOutlined />
-                    <span>About Us</span>
+                    <span>Menu</span>
                   </span>
                 }
               >
-                <Menu.ItemGroup key="aboutus" title="Options">
-                  <Menu.Item key="options1">Option 1</Menu.Item>
-                  <Menu.Item key="options2">Option 2</Menu.Item>
+                <Menu.ItemGroup key="menu" title="Options">
+                  <Menu.Item key="home">Home</Menu.Item>
+                  <Menu.Item key="aboutus">
+                    <SmileOutlined /> About Us
+                  </Menu.Item>
+                  <Menu.Item key="products">Merch</Menu.Item>
+                  <Menu.Item key="login">Login</Menu.Item>
+                  <Menu.Item key="quiz">
+                    <QuestionCircleOutlined />
+                    Take a Quiz!
+                  </Menu.Item>
                 </Menu.ItemGroup>
               </SubMenu>
             </Menu>
@@ -51,7 +63,7 @@ const Home = () => {
           <Layout>
             <Content className="home__content" style={{ padding: "0 50px" }}>
               <Breadcrumb style={{ margin: "16px 0" }}>
-                <Breadcrumb.Item>Dashboard</Breadcrumb.Item>
+                <Breadcrumb.Item>Welcome</Breadcrumb.Item>
               </Breadcrumb>
               <div className="home__card__container">
                 <Card className="home__card image">
@@ -62,7 +74,7 @@ const Home = () => {
                   />
                 </Card>
                 <Card className="home__card">
-                  <Title level={3}>This App Message</Title>
+                  <Title level={3}>Welcome to *App Name Here*</Title>
                   <p>
                     Welcome to this page! While this site is not quite up and
                     running, feel free to look around!

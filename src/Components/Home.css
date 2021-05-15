@@ -53,9 +53,10 @@ header.ant-layout-header {
   background-color: #f0f2f5;
 }
 
-.ant-avatar {
-  color: rgb(194, 57, 164);
-  background: #000000;
+span.ant-avatar,
+span.ant-avatar-circle,
+span.ant-avatar-icon {
+  color: rgb(77, 55, 9);
   width: 50px;
   height: 50px;
   display: flex;
@@ -71,25 +72,25 @@ div.ant-layout-sider-children {
 
 li.ant-menu-item,
 li.ant-menu-item:hover {
-  color: rgb(194, 57, 164);
+  color: rgb(77, 55, 9);
   font-weight: 600;
   background-color: transparent;
 }
 
 div.ant-menu-submenu-title,
 div.ant-menu-submenu-title:hover {
-  color: rgb(194, 57, 164);
+  color: rgb(77, 55, 9);
   font-weight: 600;
 }
 
 .ant-menu-submenu-arrow::before,
 .ant-menu-submenu-arrow::after {
   transform: rotate(45deg) translateX(2.5px);
-  color: rgb(194, 57, 164);
+  color: rgb(77, 55, 9);
 }
 
 li.ant-menu-item-selected {
-  border-right: 3px solid rgb(194, 57, 164);
+  border-right: 3px solid rgb(77, 55, 9);
 }
 
 .ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected {
@@ -104,7 +105,7 @@ li.ant-menu-item-selected {
   top: 0;
   right: 0;
   bottom: 0;
-  border-right: 3px solid rgb(194, 57, 164);
+  border-right: 3px solid rgb(77, 55, 9);
   transform: scaleY(0.0001);
   opacity: 0;
   transition: transform 0.15s cubic-bezier(0.215, 0.61, 0.355, 1),
@@ -115,18 +116,27 @@ li.ant-menu-item-selected {
 .ant-menu-item-group-title {
   color: rgb(82, 75, 80);
   font-weight: 500;
-  background-color: rgb(214, 187, 208);
+  background-color: rgb(190, 171, 83);
 }
 
 /* antd Card styles */
 
 h3.ant-typography {
-  color: rgb(194, 57, 164);
+  color: rgb(77, 55, 9);
+}
+
+.anticon-heart svg {
+  display: inline-block;
+  color: rgb(77, 55, 9);
+  border-radius: 50%;
+  padding: 0.5rem;
+  font-size: 2.5rem;
+  background-color: rgb(190, 171, 83);
 }
 
 .anticon-github svg {
   display: inline-block;
-  color: rgb(194, 57, 164);
+  color: rgb(77, 55, 9);
   width: 50px;
   height: 50px;
   margin-right: 2rem;
@@ -134,7 +144,7 @@ h3.ant-typography {
 
 .anticon-medium-workmark svg {
   display: inline-block;
-  color: rgb(194, 57, 164);
+  color: rgb(77, 55, 9);
   width: 50px;
   height: 50px;
   margin-right: 2rem;
@@ -142,7 +152,7 @@ h3.ant-typography {
 
 .anticon-linkedin svg {
   display: inline-block;
-  color: rgb(194, 57, 164);
+  color: rgb(77, 55, 9);
   width: 50px;
   height: 50px;
   margin-right: 2rem;
@@ -151,6 +161,7 @@ h3.ant-typography {
 /* antd Footer styles */
 
 .ant-layout-footer {
-  color: rgb(194, 57, 164);
+  color: rgb(77, 55, 9);
   font-weight: 600;
+  text-align: center;
 }
