@@ -10,12 +10,8 @@ import Login from "./Components/Login";
 import QuizPage from "./QuizComponents/QuizPage";
 import Logout from "./Components/Logout";
 
-import { useSelector } from "react-redux";
-import { selectUser } from "./users/userSlice";
-
 const App = () => {
   const { Footer } = Layout;
-  const user = useSelector(selectUser);
 
   return (
     <Router>
@@ -23,7 +19,6 @@ const App = () => {
         <Nav />
         <Switch>
           <Route path="/login" component={Login} />{" "}
-          <div>{user ? <Logout /> : <Login />}</div>
           <Route path="/logout" component={Logout} />
           <Route path="/quiz" component={QuizPage} />
           <Route path="/products" component={Products} />

@@ -1,5 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { useSelector } from "react-redux";
+import { selectUser } from "../users/userSlice";
+import Login from "./Login";
+import Logout from "./Logout";
 
 import "../App.css";
 import { Layout, Menu } from "antd";
@@ -14,6 +18,7 @@ import {
 
 function Nav() {
   const { Header } = Layout;
+  const user = useSelector(selectUser);
 
   return (
     <div className="nav__container">
@@ -39,6 +44,7 @@ function Nav() {
             <Menu.Item key="login">
               <Link to="/login">
                 <LoginOutlined /> Login
+                <div>{user ? <Logout /> : <Login />}</div>
               </Link>
             </Menu.Item>
             <Menu.Item key="logout">
