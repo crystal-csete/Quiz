@@ -9,6 +9,10 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-image: url("../assets/quizbg.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 #start__quiz__btn {
@@ -37,6 +41,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: rgb(243, 241, 232);
 }
 
 .quiz__options {
@@ -82,12 +87,6 @@ button.ant-btn:hover,
   align-items: center;
 }
 
-.finish__quiz__btn {
-}
-
-.next__question__btn {
-}
-
 /* EndScreen Component styles */
 
 .endscreen__container {
@@ -97,7 +96,5 @@ button.ant-btn:hover,
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-
-.resart__quiz__btn {
+  background-color: rgb(243, 241, 232);
 }
