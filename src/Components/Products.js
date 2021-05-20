@@ -7,7 +7,6 @@ import ColoMug from "../assets/mug.jpg";
 
 import "./Products.css";
 import { Card, Button, Typography } from "antd";
-import {} from "@ant-design/icons";
 
 const Products = () => {
   const { Meta } = Card;
@@ -15,15 +14,11 @@ const Products = () => {
 
   return (
     <>
+      <Title level={2}>Merch For Sale</Title>
       <Card className="products__container">
-        <Card style={{ marginBottom: 5, outline: "none", border: "none" }}>
-          <Title level={2}>Merch For Sale</Title>
-        </Card>
-
         <Card
           className="products__card"
           hoverable
-          style={{ width: 240 }}
           cover={<img alt="example" src={Tshirts} />}
         >
           <Meta title="Plain TShirts $14.00" />
@@ -32,7 +27,6 @@ const Products = () => {
         <Card
           className="products__card"
           hoverable
-          style={{ width: 240 }}
           cover={<img alt="example" src={ColoMug} />}
         >
           <Meta title="Colorado Dreamin Mug $14.00" />
@@ -41,7 +35,6 @@ const Products = () => {
         <Card
           className="products__card"
           hoverable
-          style={{ width: 240 }}
           cover={<img alt="example" src={Shades} />}
         >
           <Meta title="Shades $25.00" />
@@ -50,7 +43,6 @@ const Products = () => {
         <Card
           className="products__card"
           hoverable
-          style={{ width: 240 }}
           cover={<img alt="example" src={Hat} />}
         >
           <Meta title="Plain Hat $20.00" />
@@ -59,7 +51,46 @@ const Products = () => {
         <Card
           className="products__card"
           hoverable
-          style={{ width: 240 }}
+          cover={<img alt="example" src={Beanie} />}
+        >
+          <Meta title="Plain Beanie $12.00" />
+          <Button>Add to Cart</Button>
+        </Card>
+        <Card
+          className="products__card"
+          hoverable
+          cover={<img alt="example" src={Tshirts} />}
+        >
+          <Meta title="Plain TShirts $14.00" />
+          <Button>Add to Cart</Button>
+        </Card>
+        <Card
+          className="products__card"
+          hoverable
+          cover={<img alt="example" src={ColoMug} />}
+        >
+          <Meta title="Colorado Dreamin Mug $14.00" />
+          <Button>Add to Cart</Button>
+        </Card>
+        <Card
+          className="products__card"
+          hoverable
+          cover={<img alt="example" src={Shades} />}
+        >
+          <Meta title="Shades $25.00" />
+          <Button>Add to Cart</Button>
+        </Card>
+        <Card
+          className="products__card"
+          hoverable
+          cover={<img alt="example" src={Hat} />}
+        >
+          <Meta title="Plain Hat $20.00" />
+          <Button>Add to Cart</Button>
+        </Card>
+        <Card
+          className="products__card"
+          hoverable
           cover={<img alt="example" src={Beanie} />}
         >
           <Meta title="Plain Beanie $12.00" />

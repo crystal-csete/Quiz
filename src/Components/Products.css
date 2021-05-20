@@ -1,33 +1,50 @@
 /* Products styles */
 
 .products__container {
+  background-image: url("../assets/mug.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 1rem;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
   min-height: 100vh;
-  min-width: 100vw;
+  width: 100vw;
 }
 
 .products__container .ant-card-body {
   padding: 0;
   display: flex;
   flex-wrap: wrap;
-  flex-direction: column;
-  align-items: center;
+  flex-direction: row;
+  align-items: baseline;
   justify-content: space-around;
 }
 
 .products__card .ant-card-body {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
 }
 
 .products__card div.ant-card-cover {
-  margin-bottom: 1rem;
+  padding: 1rem;
+  width: 300px;
+}
+
+.products__card div.ant-card-cover img {
+  height: 300px;
+  object-fit: cover;
 }
 
 div.ant-card-bordered .products__card {
   border: 1px solid #f0f0f0;
   margin-bottom: 1rem;
+  margin-left: 5rem;
 }
 
 .products__card button.ant-btn {
@@ -35,4 +52,16 @@ div.ant-card-bordered .products__card {
   margin: 1rem;
   border: none;
   border-radius: 10px;
+}
+
+div.ant-card-meta-title {
+  font-weight: 500;
+  color: #000;
+}
+
+h2.ant-typography {
+  text-align: center;
+  background-color: rgb(190, 171, 83);
+  margin: 0;
+  padding: 1rem 1rem;
 }
