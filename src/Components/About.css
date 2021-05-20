@@ -1,8 +1,8 @@
 /* About styles */
 
-/* .about__card .ant-card-body {
+.about__card .ant-card-body {
   background-image: url("../assets/mug.jpg");
-  background-position: left;
+  background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   padding: 1rem;
@@ -10,24 +10,58 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
+  min-height: 100vh;
+  width: 100vw;
 }
 
 .about__card .ant-card-body p {
   width: 50%;
   color: #000;
   font-size: 1rem;
+  font-weight: 500;
   line-height: 2;
-  background-color: rgba(224, 212, 212, 0.8);
+  background-color: rgba(196, 199, 190, 0.8);
   border-radius: 10px;
-  padding: 3rem 2rem 3rem 2rem;
+  padding: 6rem 6rem 6rem 6rem;
+}
+
+.para1,
+.title1 {
+  margin-left: 2rem;
+  margin-top: 3rem;
+}
+
+.para2,
+.title2 {
+  margin-left: 40rem;
+  margin-top: 3rem;
+}
+
+.para3,
+.title3 {
+  margin-left: 2rem;
+  margin-top: 3rem;
+}
+
+.para4,
+.title4 {
+  margin-left: 40rem;
+  margin-top: 3rem;
 }
 
 .about__card h2.ant-typography {
   color: #fff;
-  padding-left: 2rem;
 }
 
 .about__card h4.ant-typography {
   color: #fff;
-  padding-left: 2rem;
-} */
+}
+
+.anticon-coffee svg {
+  display: inline-block;
+  color: rgb(77, 55, 9);
+  border-radius: 50%;
+  padding: 0.5rem;
+  font-size: 2.5rem;
+  background-color: rgb(190, 171, 83);
+}
