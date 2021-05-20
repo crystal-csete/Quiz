@@ -1,11 +1,10 @@
 /* About styles */
 
-.about__card .ant-card-body {
+/* .about__card .ant-card-body {
   background-image: url("../assets/mug.jpg");
   background-position: left;
   background-size: cover;
   background-repeat: no-repeat;
-  min-height: 100%;
   padding: 1rem;
   display: flex;
   flex-direction: column;
@@ -31,12 +30,4 @@
 .about__card h4.ant-typography {
   color: #fff;
   padding-left: 2rem;
-}
-
-/* Footer styles */
-
-footer {
-  color: rgb(77, 55, 9);
-  font-weight: 600;
-  border: 1px solid black;
-}
+} */
