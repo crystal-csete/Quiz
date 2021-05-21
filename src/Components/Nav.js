@@ -5,7 +5,7 @@ import { selectUser } from "../users/userSlice";
 import Login from "./Login";
 import Logout from "./Logout";
 
-import "../App.css";
+import "./Nav.css";
 import { Layout, Menu } from "antd";
 import {
   QuestionCircleOutlined,
@@ -14,6 +14,7 @@ import {
   BarcodeOutlined,
   LoginOutlined,
   LogoutOutlined,
+  DollarCircleOutlined,
 } from "@ant-design/icons";
 
 function Nav() {
@@ -38,7 +39,7 @@ function Nav() {
             </Menu.Item>
             <Menu.Item key="products">
               <Link to="/products">
-                <BarcodeOutlined /> Merch
+                <DollarCircleOutlined /> Merch
               </Link>
             </Menu.Item>
             <Menu.Item key="login">
