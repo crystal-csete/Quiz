@@ -73,7 +73,7 @@
   align-items: center;
 }
 
-button.ant-btn:nth-child(1) {
+.quiz__btn:nth-child(1) {
   background-color: #884242;
   color: white;
   border-radius: 10px;
@@ -83,7 +83,7 @@ button.ant-btn:nth-child(1) {
   height: 5rem;
 }
 
-button.ant-btn:nth-child(2) {
+.quiz__btn:nth-child(2) {
   background-color: #52b94e;
   color: white;
   border-radius: 10px;
@@ -93,7 +93,7 @@ button.ant-btn:nth-child(2) {
   height: 5rem;
 }
 
-button.ant-btn:nth-child(3) {
+.quiz__btn:nth-child(3) {
   background-color: #0f1180;
   color: white;
   border-radius: 10px;
@@ -103,7 +103,7 @@ button.ant-btn:nth-child(3) {
   height: 5rem;
 }
 
-button.ant-btn:nth-child(4) {
+.quiz__btn:nth-child(4) {
   background-color: #b3bd31;
   color: white;
   border-radius: 10px;
