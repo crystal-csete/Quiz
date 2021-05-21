@@ -18,9 +18,7 @@ function QuizPage() {
     <div className="quiz">
       <div className="quiz__container">
         <div className="quiz__title__container">
-          <Title style={{ textAlign: "center" }} level={3}>
-            Take a short Quiz
-          </Title>
+          <Title level={3}>Do you know Colorado?</Title>
         </div>
         {/* this is where/how the QuizContext.Provider is sharing state across the application */}
         <QuizContext.Provider
