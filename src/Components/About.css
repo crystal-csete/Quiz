@@ -19,13 +19,22 @@
   border: none;
 }
 
+.about__card h2.ant-typography {
+  color: #fff;
+  border-radius: 10px;
+}
+
+.about__card h4.ant-typography {
+  color: #fff;
+}
+
 .about__card .ant-card-body p {
   width: 50%;
   color: #000;
   font-size: 1rem;
   font-weight: 500;
   line-height: 2;
-  background-color: rgba(196, 199, 190, 0.8);
+  background-color: rgba(196, 199, 190, 0.9);
   border-radius: 10px;
   padding: 6rem 6rem 6rem 6rem;
 }
@@ -52,12 +61,4 @@
 .title4 {
   margin-left: 40rem;
   margin-top: 3rem;
-}
-
-.about__card h2.ant-typography {
-  color: #fff;
-}
-
-.about__card h4.ant-typography {
-  color: #fff;
 }
