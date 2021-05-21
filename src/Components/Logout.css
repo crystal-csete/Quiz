@@ -7,7 +7,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: rgb(243, 241, 232);
+  background-color: #f0f2f5;
 }
 
 .logout__btn {
