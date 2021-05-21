@@ -1,5 +1,9 @@
 /* About styles */
 
+.ant-card-bordered {
+  border: none;
+}
+
 .about__card .ant-card-body {
   background-image: url("../assets/mug.jpg");
   background-position: center;
@@ -12,6 +16,7 @@
   align-items: flex-start;
   min-height: 100vh;
   width: 100vw;
+  border: none;
 }
 
 .about__card .ant-card-body p {
@@ -55,13 +60,4 @@
 
 .about__card h4.ant-typography {
   color: #fff;
-}
-
-.anticon-coffee svg {
-  display: inline-block;
-  color: rgb(77, 55, 9);
-  border-radius: 50%;
-  padding: 0.5rem;
-  font-size: 2.5rem;
-  background-color: rgb(190, 171, 83);
 }
