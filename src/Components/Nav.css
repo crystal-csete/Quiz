@@ -1,41 +1,13 @@
-/* 
-.nav__container {
-  border: 2px solid rgb(27, 22, 22);
-  width: 100%;
+/* Nav styles */
+
+.nav__container ul,
+header.ant-layout-header {
+  background-color: rgb(243, 241, 232);
+  font-size: 1rem;
 }
 
-nav {
-  padding: 1rem;
-  margin-top: 0;
-  border-bottom: 2px solid rgb(27, 22, 22);
-  background-image: url('../assets/nav_bg.jpg');
-  background-position: center;
-  background-size: cover;
-  width: 100%;
+div.ant-menu-submenu-title,
+div.ant-menu-submenu-title:hover {
+  color: rgb(190, 171, 83);
+  font-weight: 600;
 }
-
-ul {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-.nav__btn {
-  color: rgb(243, 231, 231);
-  font-size: 1.5rem;
-  background: rgb(31, 29, 28);
-  padding: 0.5rem;
-  cursor: pointer;
-}
-
-.nav__btn:hover {
-  color: rgb(243, 231, 231);
-  font-size: 1.5rem;
-  background: rgb(31, 29, 28);
-  padding: 0.5rem;
-  cursor: pointer;
-  text-shadow: 6px 6px 6px rgb(223, 117, 18);
-}  */
