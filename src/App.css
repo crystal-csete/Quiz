@@ -48,93 +48,9 @@ html {
   font-size: 1.2rem;
 }
 
-.image {
-  background-color: rgba(63, 59, 59, 0.7);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 2rem;
-}
-
-.image span.ant-avatar {
-  border-radius: 10px;
-}
-
 /* antd design style overrides */
 
-/* antd header styles */
-
-header.ant-layout-header {
-  background-color: #fff;
-}
-
-span.ant-avatar,
-span.ant-avatar-circle,
-span.ant-avatar-icon {
-  color: rgb(77, 55, 9);
-  width: 50px;
-  height: 50px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-/* antd menus styles */
-
-div.ant-layout-sider-children {
-  background-color: #f0f2f5;
-}
-
-li.ant-menu-item,
-li.ant-menu-item:hover {
-  color: rgb(77, 55, 9);
-  font-weight: 600;
-  background-color: transparent;
-}
-
-div.ant-menu-submenu-title,
-div.ant-menu-submenu-title:hover {
-  color: rgb(77, 55, 9);
-  font-weight: 600;
-}
-
-/* .ant-menu-submenu-arrow::before,
-.ant-menu-submenu-arrow::after {
-  transform: rotate(45deg) translateX(2.5px);
-  color: rgb(77, 55, 9);
-}
-
-li.ant-menu-item-selected {
-  border-right: 3px solid rgb(77, 55, 9);
-}
-
-.ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected {
-  background-color: transparent;
-}
-
-.ant-menu-vertical .ant-menu-item::after,
-.ant-menu-vertical-left .ant-menu-item::after,
-.ant-menu-vertical-right .ant-menu-item::after,
-.ant-menu-inline .ant-menu-item::after {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  border-right: 3px solid rgb(77, 55, 9);
-  transform: scaleY(0.0001);
-  opacity: 0;
-  transition: transform 0.15s cubic-bezier(0.215, 0.61, 0.355, 1),
-    opacity 0.15s cubic-bezier(0.215, 0.61, 0.355, 1);
-  content: "";
-} */
-
-.ant-menu-item-group-title {
-  color: rgb(82, 75, 80);
-  font-weight: 500;
-  background-color: rgb(190, 171, 83);
-}
-
-/* antd Card styles */
+/* anticon styles */
 
 h3.ant-typography {
   color: rgb(77, 55, 9);
@@ -149,29 +65,68 @@ h3.ant-typography {
   background-color: rgb(190, 171, 83);
 }
 
-/* .anticon-github svg {
+.anticon-coffee svg {
   display: inline-block;
   color: rgb(77, 55, 9);
-  width: 50px;
-  height: 50px;
-  margin-right: 2rem;
+  border-radius: 50%;
+  padding: 0.5rem;
+  font-size: 2.5rem;
+  background-color: rgb(190, 171, 83);
 }
 
-.anticon-medium-workmark svg {
+.anticon-dollar-circle svg {
   display: inline-block;
   color: rgb(77, 55, 9);
-  width: 50px;
-  height: 50px;
-  margin-right: 2rem;
+  font-size: 2rem;
+  background-color: rgb(190, 171, 83);
+  border-radius: 50%;
+  padding: 0.2rem;
 }
 
-.anticon-linkedin svg {
+.anticon-home svg {
   display: inline-block;
   color: rgb(77, 55, 9);
-  width: 50px;
-  height: 50px;
-  margin-right: 2rem;
-} */
+  font-size: 2rem;
+  background-color: rgb(190, 171, 83);
+  border-radius: 4px;
+  padding: 0.2rem;
+}
+
+.anticon-smile svg {
+  display: inline-block;
+  color: rgb(77, 55, 9);
+  font-size: 2rem;
+  background-color: rgb(190, 171, 83);
+  border-radius: 50%;
+  padding: 0.2rem;
+}
+
+.anticon-login svg {
+  display: inline-block;
+  color: rgb(77, 55, 9);
+  font-size: 2rem;
+  background-color: rgb(190, 171, 83);
+  border-radius: 50%;
+  padding: 0.2rem;
+}
+
+.anticon-logout svg {
+  display: inline-block;
+  color: rgb(77, 55, 9);
+  font-size: 2rem;
+  background-color: rgb(190, 171, 83);
+  border-radius: 50%;
+  padding: 0.2rem;
+}
+
+.anticon-question-circle svg {
+  display: inline-block;
+  color: rgb(77, 55, 9);
+  font-size: 2rem;
+  background-color: rgb(190, 171, 83);
+  border-radius: 50%;
+  padding: 0.2rem;
+}
 
 /* antd Footer styles */
 
@@ -179,6 +134,5 @@ h3.ant-typography {
   color: rgb(77, 55, 9);
   font-weight: 600;
   text-align: center;
-  background-color: pink;
-  /* position: relative; */
+  background-color: rgb(243, 241, 232);
 }

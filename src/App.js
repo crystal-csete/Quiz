@@ -31,7 +31,7 @@ const App = () => {
         </Switch>
 
         <Footer style={{ textAlign: "center" }}>
-          Ant Design ©2018 Created by Ant UED
+          Crystal's Pages &#169; 2021 All Rights Reserved.
         </Footer>
       </div>
     </Router>
