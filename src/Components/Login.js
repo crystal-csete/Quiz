@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useDispatch } from "react-redux";
 import { login } from "../users/userSlice";
-import { Card, Typography, Button } from "antd";
+import { Card, Typography } from "antd";
 import {} from "@ant-design/icons";
 import "./Login.css";
 
@@ -33,7 +33,7 @@ const Login = () => {
   return (
     <Card className="login__container">
       <form className="login__form" onSubmit={(e) => handleSubmit(e)}>
-        <Title level={4}>Login here</Title>
+        <Title level={2}>Login here</Title>
         <input
           className="login__fields"
           type="name"
