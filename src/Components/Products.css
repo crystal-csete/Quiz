@@ -33,25 +33,21 @@
 
 .products__card div.ant-card-cover {
   padding: 1rem;
-  width: 300px;
+  width: 150px;
 }
 
 .products__card div.ant-card-cover img {
-  height: 300px;
+  height: 150px;
   object-fit: cover;
 }
 
 div.ant-card-bordered .products__card {
-  border: 1px solid #f0f0f0;
-  margin-bottom: 1rem;
-  margin-left: 5rem;
-}
-
-.products__card button.ant-btn {
-  background-color: rgb(190, 171, 83);
-  margin: 1rem;
   border: none;
-  border-radius: 10px;
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 div.ant-card-meta-title {
@@ -59,9 +55,19 @@ div.ant-card-meta-title {
   color: #000;
 }
 
-h2.ant-typography {
+.products__title h3.ant-typography {
+  color: #000000;
   text-align: center;
-  background-color: rgb(190, 171, 83);
+  padding: 0;
   margin: 0;
-  padding: 1rem 1rem;
+}
+
+.products__btn {
+  background-color: #000000;
+  color: white;
+  border-radius: 10px;
+  border: none;
+  margin: 1rem;
+  width: 10rem;
+  height: 3rem;
 }
