@@ -18,7 +18,7 @@ const Logout = () => {
 
   return (
     <Card className="logout__container">
-      <Title level={4}>
+      <Title level={2}>
         Welcome <span className="user__name">{user.name}</span>
       </Title>
       <button className="logout__btn" onClick={(e) => handleLogout(e)}>
